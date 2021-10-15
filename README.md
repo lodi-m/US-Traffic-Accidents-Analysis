@@ -2,15 +2,15 @@
 
 This is an exploratory data analysis conducted on a dataset from the Contiguous United States. The dataset is continously being collected and currently contains information from 3 million traffic accidents. The data was collected using multiple Traffic APIs, such as MapQuest and Bing, and several other data providers.
 
-![Image of United States, showing where the states where the data was collected from](https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/us_map_coverage.png)
+<img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/us_map_coverage.png" width="500" height="350">
 
 Although this dataset can be used for a variety of applications, I will be focusing on how precipitation and other environmental factors impacted the accidents.
 
-If you would like to learn more about the raw data itself please visit: https://smoosavi.org/datasets/us_accidents
+If you would like to learn more about the dataset itself please visit: https://smoosavi.org/datasets/us_accidents
 
 ### High-level Findings
 
-
+to be added soon
 
 
 ### Python libraries utilized 
