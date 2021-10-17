@@ -16,28 +16,28 @@ Although this dataset can be used for a variety of applications, I will be focus
 * Accidents last the longest in Wyowing and Oregon, lasting 6 and 4 hours respectively.
 * There is a sharp increase in accidents near the end of the year. As seen in the graph below, the number of accidents start to exponentially increase beginning October. I assume this is due to the holiday season, as more and more people go outside to purchase gifts and to generally prepare for the holidays. 
 <p align="center">
- <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/num_accidents_vs_month.JPG" width="400" height="250">  
+ <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/num_accidents_vs_month.JPG" width="500" height="350">  
 </p>
  
 * Most accidents take place when the temperature is between **50° - 60° F**, with **34%** of those accidents having a **Severity of 2** *(Severity in the dataset was on a scale from 1 - 5)*
 <p align="center">
- <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/severity_num_acc_vs_temp.JPG" width="400" height="250">  
+ <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/severity_num_acc_vs_temp.JPG" width="500" height="350">  
 </p>
 
 * Out of 92 different weather conditions in the dataset, most accidents occured during **Cloudy and Fair weather**. Most of these accidents also had a **Severity of 2**, like with temperature
 <p align="center">
- <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/num_accidents_vs_weather_cond.JPG" width="400" height="250">  
+ <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/num_accidents_vs_weather_cond.JPG" width="500" height="350">  
 </p>
 
 * Severity is most correlated to the **wind speed** at the time of the accident and is least correlated to **precipitation and humidity** as seen in the correlation matrix below.
     * ***NOTE**: The closer the value in the square is to zero, the more the variables are less correlated. As such, the further the value in the square gets from zero, the more correlated the two variables are.* 
 <p align="center">
- <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/corr_matrix.JPG" width="400" height="250">  
+ <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/corr_matrix.JPG" width="550" height="375">  
 </p>
 
 * An increased amount of accidents happen when there is NO precipitation. Out of all accidents, **~88%** of them occured with NO precipitation and **~11%** occurred WITH precipitation.In both cases, most of the accidents had a **Severity of 2**.
 <p align="center">
- <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/precip_num_acc_vs_sev.JPG" width="400" height="250">  
+ <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/precip_num_acc_vs_sev.JPG" width="700" height="350">  
 </p>
 
 ### Python libraries used 
