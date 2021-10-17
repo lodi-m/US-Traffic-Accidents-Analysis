@@ -1,4 +1,4 @@
-# US-Traffic-Accidents-Analysis
+# US Traffic Accidents Analysis
 
 This is an exploratory data analysis conducted on a dataset from the Contiguous United States. The dataset is continously being collected and currently contains information from 3 million traffic accidents. The data was collected using multiple Traffic APIs, such as MapQuest and Bing, and several other data providers.
 
@@ -9,6 +9,8 @@ This is an exploratory data analysis conducted on a dataset from the Contiguous 
 Although this dataset can be used for a variety of applications, I will be focusing on how **precipitation and other environmental factors** impacted the accidents.
 
 *If you would like to learn more about the dataset itself please visit: https://smoosavi.org/datasets/us_accidents*
+
+---
 
 ### High-level Findings
 
@@ -40,12 +42,16 @@ Although this dataset can be used for a variety of applications, I will be focus
  <img src="https://github.com/lodi-m/US-Traffic-Accidents-Analysis/blob/main/img/precip_num_acc_vs_sev.JPG" width="700" height="350">  
 </p>
 
+---
+
 ### Python libraries used 
 - `Pandas`
 - `NumPy`
 - `Matplotlib`
 - `Seaborn`
 - `Folium`
+
+---
 
 ### Resources 
 *   Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
